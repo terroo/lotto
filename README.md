@@ -25,7 +25,7 @@ sudo make install
 ```
 > Após instaçao já pode remover o repositório: `cd ../.. && rm -rf lotto`
 
-Toda vez que você iniciar sessão no seu computador o *auto-complete* já estará disponível, mas caso que também esteja imediatamente após instalar, rode também:
+Toda vez que você iniciar sessão no seu computador o *auto-complete* já estará disponível, mas caso queira que também esteja disponível imediatamente após instalar, rode também:
 ```bash
 exec $SHELL
 ```
