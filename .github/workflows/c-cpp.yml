@@ -17,7 +17,7 @@ jobs:
       run: cmake -B build .
     - name: make
       run: cd build && make
-    - name: make check
+    - name: cd build && make check
       run: make check
     - name: make distcheck
       run: make distcheck
