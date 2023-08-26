@@ -1,0 +1,16 @@
+_UseGetOptLotto(){                 
+  local cur
+  COMPREPLY=()   
+  cur=${COMP_WORDS[COMP_CWORD]}
+  
+  case "$cur" in
+    --*)  COMPREPLY=( $( compgen -W '--mega --facil --quina --mania --time --dupla --help --version' -- $cur ) );;
+    -*)  COMPREPLY=( $( compgen -W '-m -f -q -l -t -d -h -v' -- $cur ) );;
+    #*) COMPREPLY=( $(compgen -W '$(/bin/ls)' -- $cur ) ) ;;
+  esac
+
+  return 0
+}
+
+complete -F _UseGetOptLotto -o filenames lotto
+
