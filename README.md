@@ -27,7 +27,7 @@ sudo make install
 
 Toda vez que você iniciar sessão no seu computador o *auto-complete* já estará disponível, mas caso que também esteja imediatamente após instalar, rode também:
 ```bash
-source ~/.bashrc
+exec $SHELL
 ```
 
 ---
