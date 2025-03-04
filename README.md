@@ -45,4 +45,9 @@ lotto --help
 
 ---
 
+## Versão Rust
+[Clique aqui para ver como instalar](./loterust/README.md)
+
+---
+
 Licença [GNU GPLv3](./LICENSE). Para desintalar use o mesmo processo da instalação, mas depois rode também: `sudo make uninstall`.
