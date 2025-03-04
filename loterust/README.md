@@ -1,4 +1,4 @@
-# Lotto Rust Version(LoteRusr)
+# Lotto Rust Version(LoteRust)
 
 ---
 
