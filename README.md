@@ -46,7 +46,11 @@ lotto --help
 ---
 
 ## Versão Rust
-[Clique aqui para ver como instalar](./loterust/README.md)
+```bash
+git checkout rust-verison
+# Leia o ./loterust/README.md
+```
+
 
 ---
 

@@ -1,8 +1,0 @@
-[package]
-name = "loterust"
-version = "1.0.0"
-authors = ["Marcos Oliveira <marcos@terminalroot.com.br>"]
-edition = "2018"
-
-[dependencies]
-rand = "0.8.0"
